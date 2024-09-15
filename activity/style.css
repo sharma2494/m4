@@ -1,0 +1,57 @@
+body {
+    background: #303030;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    /* prevent horizontal scrollbar from appearing */
+}
+
+a {
+    color: #47C6F8;
+}
+
+a:hover {
+    color: #0FF;
+}
+
+/* start h2 */
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+h2 span {
+    color: #28a7e9;
+    font-weight: bold;
+}
+
+/* end h2 */
+
+/* start about team service portfolio contact */
+#about,
+#team,
+#portfolio,
+#contact {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/* end about team service portfolio contact */
+
+/* start preloader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
